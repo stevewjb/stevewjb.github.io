@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    section{
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand ms-3" href="index.html">
+        <img src="/Project2-step3/assets/logo.png" alt="logo" width="170" height="50">
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" 
+      aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Contact Us</a>
+          </li>
+          <li class="nav-item mx-4 d-none d-md-inline">
+            <a class="btn btn-secondary" href="checkout.html"><i class="bi bi-cart"></i> Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- contact information -->
+  <section id="about">
+    <div class="container-lg">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-4">
+          
+          <h4 class="display-6"><i class="bi bi-geo-alt"></i> Address:</h4>
+          <p class="lead mt-3 mb-5">10000 Riverside St.<br>Ottawa, Ontario <br>A1A 1B1</p>
+          <h4 class="display-6"><i class="bi bi-telephone"></i> Telephone:</h4>
+          <p class="lead mt-3 mb-5 text-decoration-underline text-danger">1-613-777-888</p>
+          <h4 class="display-6"><i class="bi bi-clock"></i> Business Hours:</h4>
+          <p class="lead mt-3">Mon-Fri: &nbsp;&nbsp;&nbsp; 09:00AM - 08:00PM <br>
+            Sat-Sun: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:00AM - 08:00PM</p>
+        </div>
+        <div class="col-4 text-center d-none d-md-block">
+          <img src="/Project2-step3/assets/Google_Maps_Logo_2020.svg.png" class="img-fluid" alt="map">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand ms-3" href="index.html">
+        <img src="/Project2-step3/assets/logo.png" alt="logo" width="170" height="50">
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" 
+      aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Contact Us</a>
+          </li>
+          <li class="nav-item mx-4 d-none d-md-inline">
+            <a class="btn btn-secondary" href="checkout.html"><i class="bi bi-cart"></i> Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- booking form -->
+  <section id="booking" class="bg-light py-5">
+    <div class="container-lg">
+      <div class="text-center">
+        <h2 class="display-4">Trade-In Program</h2>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-md-4">
+          
+          <form>
+            <label for="platform" class="form-label">Select your platform:</label>
+            <select class="form-select mb-4" id="platform">
+              <option value="xbox">Xbox</option>
+              <option value="ps">PlayStation</option>
+              <option value="switch">Nintendo Switch</option>
+            </select>
+
+            <label for="title" class="form-label">Select your game title:</label>
+            <select class="form-select mb-4" id="title">
+              <option value="zelda">The Legend of Zelda: Tears of the Kingdom</option>
+              <option value="ffxvi">Final Fantasy XVI</option>
+              <option value="re4">Resident Evil 4</option>
+            </select>
+
+            <label for="subject" class="form-label">Condition:</label>
+            <div class="form-check" id="subject">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Complete
+              </label>
+              
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Incomplete
+              </label>
+            </div>
+            
+            <div class="my-4 text-center">
+              <a class="btn btn-secondary">Submit</a>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
